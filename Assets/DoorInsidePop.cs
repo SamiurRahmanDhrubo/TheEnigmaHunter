@@ -4,12 +4,14 @@ using UnityEngine.UI;
 public class DoorInsidePop : MonoBehaviour
 {
     public GameObject button;
+    private bool buttonActivated = false;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (other.CompareTag("Player")&& !buttonActivated)
         {
             button.SetActive(true);
+            buttonActivated = true;
         }
     }
 
@@ -18,6 +20,7 @@ public class DoorInsidePop : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             button.SetActive(false);
+            // Do nothing
         }
     }
 }

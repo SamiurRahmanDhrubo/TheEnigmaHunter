@@ -7,6 +7,7 @@ public class AutoDoor : MonoBehaviour
     public GameObject moovingDoor;
     public GameObject oldNPC;
     public GameObject newCharacter;
+    private Vector3 initialPosition;
     public float maximumOpening = -20.76f;
     public float maximumClosing = -0.4f;
     public float movementSpeed = 1f;
@@ -17,6 +18,7 @@ public class AutoDoor : MonoBehaviour
     void Start()
     {
         playerIsHere = false;
+        initialPosition = moovingDoor.transform.position;
      
     }
 
@@ -28,7 +30,7 @@ public class AutoDoor : MonoBehaviour
                   moovingDoor.transform.Translate(0f, 0f, movementSpeed * Time.deltaTime);
                }
         }else{
-            if(moovingDoor.transform.position.z > maximumClosing){
+            if(moovingDoor.transform.position.z > initialPosition.z){
                   moovingDoor.transform.Translate(0f, 0f, -(movementSpeed * Time.deltaTime));
                }
         }
