@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1105 &110500000
+HumanTemplate:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Human Template
+  m_BoneTemplate:
+    Chest: genSuit_Spine1
+    Head: genSuit_Head
+    Hips: genSuit_Hips
+    Left Index Distal: genSuit_LeftHandIndex3
+    Left Index Intermediate: genSuit_LeftHandIndex2
+    Left Index Proximal: genSuit_LeftHandIndex1
+    Left Middle Distal: genSuit_LeftHandMiddle3
+    Left Middle Intermediate: genSuit_LeftHandMiddle2
+    Left Middle Proximal: genSuit_LeftHandMiddle1
+    Left Thumb Distal: genSuit_LeftHandThumb3
+    Left Thumb Intermediate: genSuit_LeftHandThumb2
+    Left Thumb Proximal: genSuit_LeftHandThumb1
+    LeftFoot: genSuit_LeftFoot
+    LeftHand: genSuit_LeftHand
+    LeftLowerArm: genSuit_LeftForeArm
+    LeftLowerLeg: genSuit_LeftLeg
+    LeftShoulder: genSuit_LeftShoulder
+    LeftToes: genSuit_LeftToeBase
+    LeftUpperArm: genSuit_LeftArm
+    LeftUpperLeg: genSuit_LeftUpLeg
+    Neck: genSuit_Neck
+    Right Index Distal: genSuit_RightHandIndex3
+    Right Index Intermediate: genSuit_RightHandIndex2
+    Right Index Proximal: genSuit_RightHandIndex1
+    Right Middle Distal: genSuit_RightHandMiddle3
+    Right Middle Intermediate: genSuit_RightHandMiddle2
+    Right Middle Proximal: genSuit_RightHandMiddle1
+    Right Thumb Distal: genSuit_RightHandThumb3
+    Right Thumb Intermediate: genSuit_RightHandThumb2
+    Right Thumb Proximal: genSuit_RightHandThumb1
+    RightFoot: genSuit_RightFoot
+    RightHand: genSuit_RightHand
+    RightLowerArm: genSuit_RightForeArm
+    RightLowerLeg: genSuit_RightLeg
+    RightShoulder: genSuit_RightShoulder
+    RightToes: genSuit_RightToeBase
+    RightUpperArm: genSuit_RightArm
+    RightUpperLeg: genSuit_RightUpLeg
+    Spine: genSuit_Spine
